@@ -13,6 +13,7 @@ print(img_gray.shape)
 
 h = [0 for _ in range(256)]
 
+#원본 사진의 히스토그램 확인
 for i in range(img_gray.shape[0]):
     for j in range(img_gray.shape[1]):
         h[img_gray[i][j]]+= 1
@@ -35,6 +36,7 @@ h = np.array(h)
 h1 = h/(500*750)
 
 
+#누적 진행
 for i in range(256):
     if i == 0:
         pass
