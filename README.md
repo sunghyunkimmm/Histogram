@@ -7,3 +7,6 @@
 ![image](https://github.com/user-attachments/assets/2ced2d45-21d0-43a0-87f1-87165634fd25)
 
 
+2. 영상 조작을 통해 영상 품질 개선
+   ex)히스토그램 평활화
+   
